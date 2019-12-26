@@ -17,7 +17,7 @@ pipeline {
         
         stage("Docker login and docker pull") {
             steps {
-                    sh ' df -h;  ls -lah ./* '
+                    sh ' df -h;  ls -lah '
                                        
                   }
         }
