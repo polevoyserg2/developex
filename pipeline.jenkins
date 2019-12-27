@@ -13,12 +13,12 @@ pipeline {
     }
         
         stages {
-        
-        
         stage("Docker login and docker pull") {
             steps {
-                     sh '''#!/bin/bash
-                       host=8.8.4.4
+            sh '''#!/bin/bash
+             
+             
+             host=ua.fm
 
 
 
