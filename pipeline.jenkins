@@ -13,7 +13,7 @@ pipeline {
     }
         
         stages {
-        stage("Docker login and docker pull") {
+        stage("Check IP/DNS in RBL") {
             steps {
             sh '''#!/bin/bash
              
