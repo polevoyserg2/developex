@@ -22,7 +22,7 @@ pipeline {
 
 
 
-reg='([0-9]{1,3}[\.]){3}[0-9]{1,3}'
+reg='([0-9]{1,3}[/\.]){3}[0-9]{1,3}'
 
 
 if ! [[ $host =~ $reg ]] ; then IN=`curl -s https://api.hetrixtools.com/v2/d749293a48afb5f267f7255347ea7c2c/blacklist-check/domain/$host/` ; for i in $(echo $IN | tr "," "\n"); do echo $i; done | sed -e 's/\\//g'; else IN=`curl -s https://api.hetrixtools.com/v2/31feba0b1ad144860c0bacdcfde7a2e7/blacklist-check/ipv4/$host/` ; for i in $(echo $IN | tr "," "\n"); do echo $i; done | sed -e 's/\\//g'  ; fi      
