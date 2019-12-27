@@ -18,7 +18,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=ua.fm
+             host=github.com
 
 
 
