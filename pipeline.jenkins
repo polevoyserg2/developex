@@ -1,6 +1,6 @@
 #!groovy
 // Check ub1 properties
-
+#
 pipeline {
     agent { 
         label 'master'
@@ -18,7 +18,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=github.com
+             host=1.1.1.1
 
 
 
