@@ -1,6 +1,5 @@
 #!groovy
 // Check ub1 properties
-#
 pipeline {
     agent { 
         label 'master'
