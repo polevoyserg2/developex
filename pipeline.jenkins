@@ -17,7 +17,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=1.1.1.1
+             host=google.com
 
 
 
