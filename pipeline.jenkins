@@ -17,7 +17,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=mail.ru
+             host=i.ua
 
 
 
