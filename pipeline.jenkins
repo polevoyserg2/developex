@@ -17,7 +17,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=google.com
+             host=mail.ru
 
 
 
