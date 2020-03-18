@@ -17,7 +17,7 @@ pipeline {
             sh '''#!/bin/bash
              
              
-             host=i.ua
+             host=213.110.121.15
 
 
 
